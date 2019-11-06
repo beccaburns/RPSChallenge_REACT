@@ -2,5 +2,22 @@
   "name": "RPSChallenge_REACT",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "eslint": "^4.18.2",
+    "js-yaml": "^3.13.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack-dev-server": "^3.1.11"
+  }, 
+  "scripts": {
+    "start": "webpack-dev-server --inline --mode development --open"
+  }
 }
